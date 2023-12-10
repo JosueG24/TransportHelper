@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+
+    .bgOpaque{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .margins{
+        @apply outline outline-c_Mischka outline-1 rounded-md
+    }
+    .flexAllCenter{
+        @apply flex justify-center items-center;
+    }
+    /* Estilo de fuente */
+    .txtPrincipal{
+        font-family: "Hind Madurai", Helvetica, Arial, sans-serif; 
+    }
+    .txtSecondary{
+        font-family: 'Ubuntu', cursive, sans-serif; 
+    }
+    /* Tamaños de fuente */
+    .txtSm{
+        font-size:  calc(0.5em + 0.5vw);
+        line-height: 1.2em;
+    }
+    .txtMd{
+        font-size:  calc(0.5em + 0.7vw);
+        line-height: 1.2em;
+    }
+    .txtLg{
+        font-size:  calc(0.8em + 0.9vw);
+        line-height: 1.2em;
+    }
+    .txtXl{
+        font-size:  calc(1.3em + 1.5vw);
+        line-height: 1em;
+    }
+    .txtXl2{
+        font-size:  calc(1.5em + 1.8vw);
+        line-height: 1em;
+    }
+
+
+}
