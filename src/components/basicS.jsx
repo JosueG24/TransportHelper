@@ -1,10 +1,30 @@
 const providerScript = [
-  {name:"bestTramsportation", description:"bestTramsportation"},
-  {name:"prMedicalTramsport", description:"prMedicalTramsport"},
-  {name:"pereiraMedicalTramsport", description:"pereiraMedicalTramsport"}
+  {name:"BEST TRANSPORTATION", description:"Gracias por la información. Su cita fue programada con el proveedor BEST TRANSPORTATION OF PR LLC. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-272-7018. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"PR MEDICAL TRANSPORT", description:"Gracias por la información. Su cita fue programada con el proveedor PUERTO RICO MEDICAL TRANSPORT. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-520-6011. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"AEI AMBULANCE", description:"Gracias por la información. Su cita fue programada con el proveedor AEI AMBULANCE. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-287-5192. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"AMERICAN EMERGENCY", description:"Gracias por la información. Su cita fue programada con el proveedor AMERICAN EMERGENCY AMBULANCE. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-287-5192 787-287-8148. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"ANGELES AMBULANCE", description:"Gracias por la información. Su cita fue programada con el proveedor ANGELES AMBULANCE. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-469-1313. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"CMC AMBULANCE", description:"Gracias por la información. Su cita fue programada con el proveedor CMC AMBULANCE & NON EMERGENCY TRANSPORT. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 7787-983-7961 787-220-8466. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"EO AMBULANCE SERVICES", description:"Gracias por la información. Su cita fue programada con el proveedor EO AMBULANCE SERVICES. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-262-8526. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"JF TRANSPORT", description:"Gracias por la información. Su cita fue programada con el proveedor JF TRANSPORT. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-886-8950 939-363-3713. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"MEDLIFE AMBULANCE", description:"Gracias por la información. Su cita fue programada con el proveedor MEDLIFE AMBULANCE. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-255-0636. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"MSN TRANSPORT", description:"Gracias por la información. Su cita fue programada con el proveedor MSN TRANSPORT. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-915-0000. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"MULTI SERVICE TRANSPORT", description:"Gracias por la información. Su cita fue programada con el proveedor MULTI SERVICE TRANSPORT. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-314-9880 787-820-8686. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"PEREIRA MEDICAL SERVICES", description:"Gracias por la información. Su cita fue programada con el proveedor PEREIRA MEDICAL SERVICES. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-447-7666 939-717-6840. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"PROMED AMBULANCE", description:"Gracias por la información. Su cita fue programada con el proveedor PROMED AMBULANCE SERVICES & SALES. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-650-8888. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"SER LADYS AMBULANCE", description:"Gracias por la información. Su cita fue programada con el proveedor SER LADYS AMBULANCE. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-635-3348 939-992-9293. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"SOUTHWEST AMBULANCE", description:"Gracias por la información. Su cita fue programada con el proveedor SOUTHWEST AMBULANCE TRANSPORTATION. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-394-3297. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."},
+  {name:"SUNNY AMBULANCE", description:"Gracias por la información. Su cita fue programada con el proveedor SUNNY AMBULANCE. Posterior a nuestra llamada el proveedor asignado se estaría comunicando con usted para los detalles del transporte, por lo que debe estar pendiente a responder la llamada y ofrecer la información solicitada para completar el proceso de coordinación. Si dos días antes de la fecha de su cita no le han llamado, puede comunicarse con el proveedor al número de teléfono 787-667-7753. Si proveedor le indica que no puede ofrecer el servicio, comuníquese con nosotros para asistirle."}
 ]
 
-
+async function copyToClipboard(txt){
+  console.log(txt);
+  try {
+    await navigator.clipboard.writeText(txt);
+  } catch (err) {
+    console.log(err)
+  }
+} 
 
 function BasicS() {
     return (
@@ -12,21 +32,25 @@ function BasicS() {
     <div className="w-full h-[10%] flexAllCenter">
           <h2 className="txtSecondary txtLg">Scripts basicos</h2>
       </div>
-      <div className="bg-c_Purple  w-full h-[90%] p-1 flexAllCenter">
-
-      <div className='w-full h-10/12'>
-        {providerScript.map((item, index)=>{
-            return(
-                <div className={index%2 !== 0 ?'w-full h-1/10 flex':"w-full h-1/10 flex bg-c_LightGrayBlue"} key={index}>
-                    <p className="h-full w-1/6 margins rounded-none outline-c_DarckBlue flexAllCenter overflow-hidden">{index+1}</p>
-                    <p className="h-full w-2/6 margins rounded-none outline-c_DarckBlue flexAllCenter overflow-hidden" >{item.name}</p>
-                    <p className="h-full w-1/6 margins rounded-none outline-c_DarckBlue flexAllCenter overflow-hidden">{item.description}</p>
-                </div>
-            )
-        })}
-        </div>
-
+      <div className="w-full h-[45%]">
+        <div className="w-full h-[15%] flexAllCenter txtPrincipal txtMd">- Su proveedor asignado es...</div>
+        <div className='w-full h-[85%] p-1 overflow-y-auto'>
+          {providerScript.map((item, index)=>{
+              return(
+                  <div className={index%2 !== 0 ?'w-full h-[20%] flex':"w-full h-[20%] flex bg-c_Econtrast"} key={index}>
+                      <p className="h-full w-[70%] margins rounded-none outline-c_DarckBlue flexAllCenter overflow-hidden" >{item.name}</p>
+                      <button className="h-full w-[30%] margins rounded-none outline-c_DarckBlue flexAllCenter overflow-hidden hover:bg-c_Mischka hover:text-c_Ebony transition-colors" onClick={()=>copyToClipboard(item.description)}>copiar</button>
+                  </div>
+              )
+          })}
+          </div>
       </div>
+
+      <div className="w-full h-[45%] p-1">
+        <div className="w-full h-[15%] flexAllCenter txtPrincipal txtMd">- Codigos Disposición Max</div>
+          <div className='w-full h-[85%] p-1 overflow-y-auto bg-blue-950'>
+          </div>
+        </div>
     </section>
     );
   }
